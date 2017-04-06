@@ -15,7 +15,7 @@
         one_dpr = 1;
     }
 
-    _document.write(`<meta name="viewport" content="width=device-width, initial-scale=${ one_dpr }, maximum-scale=${ one_dpr }, minimum-scale=${one_dpr}, user-scalable=no">
+    _document.write(`<meta name="viewport" content="width=device-width, initial-scale=${ one_dpr }, maximum-scale=${ one_dpr }, minimum-scale=${ one_dpr }, user-scalable=no">
                      <meta name="flexible" content="initial-dpr=${ dpr }">`);
 
 
